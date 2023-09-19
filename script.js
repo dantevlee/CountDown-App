@@ -32,6 +32,5 @@ function addLeadingZero(number) {
   return number < 10 ? '0' + number : number; 
 }
 
-displayCountDown();
 
 setInterval(displayCountDown, 1000);
